@@ -1,0 +1,31 @@
+{
+  "name": "techshowcase",
+  "version": "1.0.0",
+  "description": "Or do i?",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "author": "JS Bros",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-istanbul": "^5.1.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "chai": "^4.2.0",
+    "enzyme": "^3.10.0",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "react": "^16.8.6",
+    "sinon": "^7.3.2",
+    "sinon-chai": "^3.3.0"
+  }
+}
